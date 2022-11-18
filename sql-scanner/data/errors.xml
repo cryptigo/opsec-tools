@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <db type="mysql">
+        <error value="mysqlsyntaxerrorexception"/>
+        <error value="com.mysql.jdbc"/>
+        <error value="zend_db_adapter_mysqli_exception"/>
+        <error value="zend_db_statement_mysqli_exception"/>
+        <error value="valid mysql result"/>
+        <error value="check the manual that corresponds to your mysql server version"/>
+        <error value="check the manual that fits your mysql server version"/>
+        <error value="check the manual that corresponds to your mariadb server version"/>
+        <error value="check the manual that fits your mariadb server version"/>
+        <error value="check the manual that corresponds to your drizzle server version"/>
+        <error value="check the manual that fits your drizzle server version"/>
+        <error value="mysqlexception"/>
+        <error value="unsupported nested scalar subselect"/>
+        <error value="memsql does not support this type of query"/>
+        <error value="is not supported by memsql"/>
+        <error value="warning: mysql"/>
+        <error value="you have an error in your sql syntax"/>
+    </db>
+
+    <db type="mssql">
+        <error value="[sql server]"/>
+        <error value="system.data.sqlclient.sqlexception.onerror"/>
+        <error value="system.data.sqlclient.sqlconnection.onerror"/>
+        <error value="unclosed quotation mark after the character string"/>
+        <error value="odbc sql server driver"/>
+        <error value="sqlsrvexception"/>
+        <error value="sqlserverexception"/>
+        <error value="sqlserver jdbc driver"/>
+        <error value="com.jnetdirect.jsql"/>
+        <error value="macromedia.jdbc.sqlserver"/>
+        <error value="zend_db_adapter_sqlsrv_exception"/>
+        <error value="zend_db_statement_sqlsrv_exception"/>
+        <error value="com.microsoft.sqlserver.jdbc"/>
+    </db>
+
+    <db type="oracle">
+        <error value="oracle error"/>
+        <error value="quoted string not properly terminated"/>
+        <error value="sql command not properly ended"/>
+        <error value="macromedia.jdbc.oracle"/>
+        <error value="oracle.jdbc"/>
+        <error value="zend_db_adapter_oracle_exception"/>
+        <error value="zend_db_statement_oracle_exception"/>
+        <error value="oracleexception"/>
+    </db>
+</root>
